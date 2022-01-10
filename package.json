@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@lhci/cli": "^0.8.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -10,6 +11,7 @@
     "@types/node": "^16.11.18",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "global": "^4.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -19,10 +21,12 @@
   "scripts": {
     "start": "set HTTPS=true&&react-scripts start",
     "build": "react-scripts build",
-    "pre-test": "npm run lint",
+    "pre-test": "yarn run lint",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "serve:prod": "set NODE_ENV=production yarn start",
+    "serve:lhci": "yarn start"
   },
   "browserslist": {
     "production": [

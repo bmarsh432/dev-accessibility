@@ -1,0 +1,12 @@
+{
+  "ci": {
+    "collect": {
+      "url": ["https://localhost:3000"],
+      "startServerCommand": "serve:lhci",
+      "startServerReady": "No issues found.",
+      "settings": {
+        "onlyCategories": ["accessibility"]
+      }
+    }
+  }
+}
