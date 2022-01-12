@@ -42,9 +42,9 @@
     ]
   },
   "devDependencies": {
+    "@axe-core/react": "^4.3.2",
     "@types/jest-axe": "^3.5.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
-    "jest-axe": "^5.0.1",
-    "react-axe": "^3.5.4"
+    "jest-axe": "^5.0.1"
   }
 }

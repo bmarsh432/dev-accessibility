@@ -29,7 +29,7 @@ function App() {
     </div>
     // <main className="App">
     //   <h1>How can we catch Accessibility issues</h1>
-    //   <div>Here are some html elements which have some issues when it comes to acccessibility</div>
+    //   <div>Hopefully now they are fixed.....</div>
     //   <div>
     //     <h2>Input</h2>
     //     <button type="button">Click me...</button>
