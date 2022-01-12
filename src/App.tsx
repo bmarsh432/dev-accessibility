@@ -1,5 +1,5 @@
 import React from "react";
-import smiley from "./images/smiley.png";
+import thought from "./images/thought.png";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       </div>
       <div>
         <h3>Image</h3>
-        <img src={smiley}></img>
+        <img src={thought}></img>
       </div>
       <div>
         <h3>Input</h3>

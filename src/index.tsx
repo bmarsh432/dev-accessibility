@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-//rules can be passed to axe using a config object
-// if (process.env.NODE_ENV !== "production") {
-//   var axe = require("react-axe");
-//   axe(React, ReactDOM, 1000);
-// }
+// rules can be passed to axe using a config object
+if (process.env.NODE_ENV !== "production") {
+  var axe = require("react-axe");
+  axe(React, ReactDOM, 1000);
+}
 
 ReactDOM.render(
   <React.StrictMode>
