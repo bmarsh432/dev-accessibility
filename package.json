@@ -21,8 +21,6 @@
   "scripts": {
     "start": "set HTTPS=true&&react-scripts start",
     "build": "react-scripts build",
-    "pre-test": "yarn run lint",
-    "pre-start": "yarn run lint",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src",
