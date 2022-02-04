@@ -3,11 +3,20 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-//rules can be passed to axe using a config object
-// if (process.env.NODE_ENV !== "production") {
-//   var axe = require("@axe-core/react");
-//   axe(React, ReactDOM, 1000);
-// }
+const config = {
+  runOnly: {
+    type: "tag",
+    values: ["wcag21a"],
+    //The config below will run both A and AA WCAG checks
+    // values: ["wcag21a", "wcag21aa"],
+  },
+  disableDeduplicate: true,
+};
+
+if (process.env.NODE_ENV !== "production") {
+  var axe = require("@axe-core/react");
+  axe(React, ReactDOM, 1000, config);
+}
 
 ReactDOM.render(
   <React.StrictMode>

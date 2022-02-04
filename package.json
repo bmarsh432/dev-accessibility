@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src",
+    "lint": "eslint .",
     "serve:prod": "set NODE_ENV=production yarn start",
     "serve:lhci": "yarn start"
   },
@@ -42,6 +42,7 @@
   "devDependencies": {
     "@axe-core/react": "^4.3.2",
     "@types/jest-axe": "^3.5.3",
+    "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "jest-axe": "^5.0.1"
   }
