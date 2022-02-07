@@ -6,9 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 const config = {
   runOnly: {
     type: "tag",
-    values: ["wcag21a"],
-    //The config below will run both A and AA WCAG checks
-    // values: ["wcag21a", "wcag21aa"],
+    values: ["wcag21a", "wcag21aa"],
   },
   disableDeduplicate: true,
 };
