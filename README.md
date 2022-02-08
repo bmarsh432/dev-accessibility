@@ -1,6 +1,6 @@
 # Developer accessibility tools example
 
-The ESLint config (eslintrc.json) and @axe-core/react config (index.tsx) are commented out and need adding for those to work
+This version incorporates linting configurations for WCAG AA and other recommended rules for that plugin.  Also @axe-core/react config for WCAG AA.
 
 To run the project:
 
