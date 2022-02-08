@@ -4,6 +4,8 @@ The ESLint config (eslintrc.json) and @axe-core/react config (index.tsx) are com
 
 To run the project:
 
+### `yarn install`
+
 ### `yarn start`
 
 To run the tests:
