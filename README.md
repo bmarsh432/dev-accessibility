@@ -1,6 +1,6 @@
-# Developer accessibility tools example
+# WCAG 2.1 A Developer accessibility tools example
 
-The ESLint config (eslintrc.json) and @axe-core/react config (index.tsx) are commented out and need adding for those to work
+This version incorporates linting configurations for WCAG A and other recommended rules for that plugin.  Also @axe-core/react config for WCAG A.
 
 To run the project:
 
@@ -14,7 +14,7 @@ To run the tests:
 
 To run the linter:
 
-### `yarn run lint`
+### `yarn lint`
 
 To run the Lighthouse CI locally:
 
