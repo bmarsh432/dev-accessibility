@@ -1,4 +1,6 @@
-# Developer accessibility tools example
+# Base Developer accessibility tools example
+
+This is the initial version without the WCAG A / AA testing set up
 
 The ESLint config (eslintrc.json) and @axe-core/react config (index.tsx) are commented out and need adding for those to work
 
@@ -12,7 +14,7 @@ To run the tests:
 
 To run the linter:
 
-### `yarn run lint`
+### `yarn lint`
 
 To run the Lighthouse CI locally:
 
